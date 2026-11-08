@@ -1,0 +1,71 @@
+body {
+  background: #ffadad;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+.title {
+  color: #0b0b2b;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.dark-red {
+  color: #a30000;
+  font-weight: 700;
+}
+
+.red-text {
+  color: #ff3b3b;
+  font-weight: 600;
+}
+
+.form-card {
+  background: #ffe0e0;
+  border: none;
+  border-radius: 12px;
+  max-width: 420px;
+}
+
+.btn-red {
+  background: #ff3b3b;
+  color: white;
+  border: none;
+}
+
+.btn-red:hover {
+  background: #d92b2b;
+  color: white;
+}
+
+.navbar {
+  background: #ffe0e0;
+}
+
+.search-box {
+  max-width: 600px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.search-box .form-control,
+.search-box .input-group-text,
+.search-box .btn {
+  border: none;
+}
+
+.food-card {
+  background: #1a1a1a;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.food-card:hover {
+  transform: translateY(-4px);
+}
+
+.food-icon {
+  font-size: 2.5rem;
+}
